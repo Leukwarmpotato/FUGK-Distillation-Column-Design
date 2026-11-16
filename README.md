@@ -14,8 +14,8 @@ Python implementation of the Fenske-Underwood-Gilliland-Kirkbride shortcut metho
 ## Running
 
 ```bash
-pip install numpy
-python fugk_distillation.py
+uv sync
+uv run python fugk_distillation.py
 ```
 
 To change the separation, pass a different component list to `FUGK_distillation(components=[...])`.
